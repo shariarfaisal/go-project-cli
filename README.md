@@ -1,30 +1,30 @@
 ## Go Project Cli
 
-It helps to create structured service for go project. It creates a module with the following structure.
-`
-├── service
-│ └── moduleOne.model.go
-│ └── moduleOne.repo.go
-│ └── moduleTwo.model.go
-│ └── moduleTwo.repo.go
-│ └── service
-│ └── moduleOne.go
-│ └── moduleTwo.go
-
-`
+### It helps to create structured service for go project. 
+![image](https://user-images.githubusercontent.com/36384256/212800755-e78c82b3-1da0-4af2-a019-f984f44d3544.png)
 
 ## Installation
 
-`  
+```
 go build
 go install
 
-`
+```
 
 ## Usage
 
-**_Create a service_**
-`go-project service <service-name> <module-name> <module-name> <module-name> ...`
+### Create a service ###
 
-**_Create a module_**
-`go-project module <module-name> model repo service etc ...`
+```
+
+  go-project service <service-name> <module-name> <module-name> <module-name> ...
+
+```
+
+### Create a module###
+
+```
+
+  go-project module <module-name> model repo service etc ...
+
+```
